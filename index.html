@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editer</title>
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- font Awesoe link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css file local -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+
+    <form>
+        <button type="button" data-cmd="justifyLeft">
+            <i class="fa fa-align-left"></i>
+        </button>
+        <button type="button" data-cmd="justifyCenter">
+            <i class="fa fa-align-center"></i>
+        </button>
+        <button type="button" data-cmd="justifyFyll">
+            <i class="fa fa-align-justify"></i>
+        </button>
+        <button type="button" data-cmd="justifyRight">
+            <i class="fa fa-align-right"></i>
+        </button>
+        <button type="button" data-cmd="bold">
+            <i class="fa fa-bold"></i>
+        </button>
+        <button type="button" data-cmd="italic">
+            <i class="fa fa-italic"></i>
+        </button>
+        <button type="button" data-cmd="underline">
+            <i class="fa fa-underline"></i>
+        </button>
+        <button type="button" data-cmd="insertOrderedList">
+            <i class="fa fa-list-ol"></i>
+        </button>
+        <button type="button" data-cmd="insertOrderedList">
+            <i class="fa fa-list-ul"></i>
+        </button>
+    </form>
+
+    <iframe id="output" name="textField"></iframe>
+
+
+    <!-- Js local File -->
+
+    <script src="./js/index.js"></script>
+
+    <!-- bootstrap js script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
